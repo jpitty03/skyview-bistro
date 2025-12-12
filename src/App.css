@@ -58,6 +58,28 @@
   font-style: italic;
 }
 
+.location-info {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--tertiary-color);
+}
+
+.location-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  margin: 0.5rem 0;
+  letter-spacing: 0.05em;
+}
+
+.address {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--text-light);
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -87,6 +109,14 @@
   .logo {
     max-width: 300px;
   }
+
+  .location-label {
+    font-size: 0.9rem;
+  }
+
+  .address {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -109,5 +139,13 @@
 
   .coming-soon-container {
     padding: 1rem;
+  }
+
+  .location-label {
+    font-size: 0.85rem;
+  }
+
+  .address {
+    font-size: 0.95rem;
   }
 }

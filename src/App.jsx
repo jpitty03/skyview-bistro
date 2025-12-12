@@ -9,6 +9,10 @@ function App() {
         <h2 className="coming-soon-text">Coming Soon</h2>
         {/* <h2 className="restaurant-name">Skyview Bistro and Lounge</h2> */}
         <p className="tagline">An elevated dining experience is on the horizon</p>
+        <div className="location-info">
+          <p className="location-label">Located in: Pendleton Airport</p>
+          <p className="address">2016 NW Airport Rd, Pendleton, OR 97801</p>
+        </div>
       </div>
     </div>
   )
