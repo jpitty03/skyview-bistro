@@ -1,0 +1,113 @@
+:root {
+  /* Placeholder colors - easy to customize later */
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --accent-color: #e67e22;
+  --text-light: #ecf0f1;
+  --background-gradient-start: #1a252f;
+  --background-gradient-end: #2c3e50;
+}
+
+.coming-soon-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--background-gradient-start) 0%, var(--background-gradient-end) 100%);
+  padding: 2rem;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.coming-soon-text {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin: 1.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.restaurant-name {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--text-light);
+  margin-top: 1.5rem;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .coming-soon-text {
+    font-size: 2.5rem;
+    letter-spacing: 0.15em;
+  }
+
+  .restaurant-name {
+    font-size: 1.75rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon-text {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+
+  .restaurant-name {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  .coming-soon-container {
+    padding: 1rem;
+  }
+}
