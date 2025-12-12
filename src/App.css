@@ -1,11 +1,12 @@
 :root {
-  /* Placeholder colors - easy to customize later */
-  --primary-color: #2c3e50;
-  --secondary-color: #34495e;
-  --accent-color: #e67e22;
-  --text-light: #ecf0f1;
-  --background-gradient-start: #1a252f;
-  --background-gradient-end: #2c3e50;
+  /* Skyview Bistro Color Palette */
+  --primary-color: #2C3639;    /* Dark charcoal */
+  --secondary-color: #3F4E4F;   /* Medium charcoal */
+  --tertiary-color: #A2785B;    /* Warm brown */
+  --accent-color: #DCD7C9;      /* Light cream */
+  --text-light: #DCD7C9;
+  --background-gradient-start: #2C3639;
+  --background-gradient-end: #3F4E4F;
 }
 
 .coming-soon-container {
@@ -25,9 +26,8 @@
 
 .logo {
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   height: auto;
-  margin-bottom: 2rem;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
 }
 
@@ -44,7 +44,7 @@
 .restaurant-name {
   font-size: 2.5rem;
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--tertiary-color);
   margin: 1rem 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
