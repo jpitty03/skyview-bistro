@@ -26,9 +26,9 @@
 
 .logo {
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   height: auto;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
 }
 
 .coming-soon-text {
